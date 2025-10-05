@@ -8,7 +8,7 @@
 
 > **CS 527 — Mobile System Security**  
 > **School of Computing, Binghamton University**  
-> **Authors:** Suraj Kumar & Sumit Nautiyal  
+> **Authors:** Sumit Nautiyal  
 > **Instructor:** Dr. Guanhua Yan  
 > 📅 *May 2025*
 
@@ -46,7 +46,7 @@ Data preprocessing and classification were performed in **Microsoft Excel**, and
 - Collected live cellular-network data during:
   - 🏠 **Home** (stationary)  
   - 🎓 **University** (indoor/outdoor campus)  
-  - 🚗 **Transit** (walking, bus rides, driving)
+  - 🚗 **Transit** (walking, bus rides)
 - Captured attributes:  
   `deviceTime`, `latitude`, `longitude`, `eci`, `earfcn`, `provider`, `speed`, `networkRegistrationInfo`, `rsrp`, `rsrq`.
 
@@ -105,3 +105,13 @@ Interactive **Power BI** dashboards visualize:
 ├── 📂 app/ # Android app modified files
 ├── 📄 analysis.xlsx # Excel preprocessing & calculations
 └── 📄 P3_CELLULAR_DATA_ANALYSIS_SUMIT.pdf # Full project report
+
+## Visuals
+- ![Speedometer_Performance_on_Network_Survey_Application](visuals/Speedometer_Performance_on_Network_Survey_Application.png)
+
+- ![signal_strength](visuals/signal_strength.png)
+
+- ![signal_strength_based_on_location](visuals/signal_strength_based_on_location.png)
+
+- ![tower_switching_failed](visuals/tower_switching_failed.png)
+
