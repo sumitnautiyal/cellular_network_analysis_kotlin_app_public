@@ -1,4 +1,4 @@
-# 📶 Cellular Network Data Analysis  
+# Cellular Network Data Analysis  
 
 [![Made with Excel](https://img.shields.io/badge/Made%20with-Excel-217346?logo=microsoft-excel&logoColor=white)]()
 [![Visualized in Power BI](https://img.shields.io/badge/Visualized%20in-Power%20BI-F2C811?logo=power-bi&logoColor=black)]()
@@ -10,11 +10,11 @@
 > **School of Computing, Binghamton University**  
 > **Authors:** Sumit Nautiyal  
 > **Instructor:** Dr. Guanhua Yan  
-> 📅 *May 2025*
+> *May 2025*
 
 ---
 
-## 🧭 Project Overview
+## Project Overview
 
 This project investigates **real-world cellular network behavior** by analyzing data collected using the **Network Survey App** integrated with the **SpeedView Speedometer**.  
 Our objective was to identify **signal-strength patterns, tower switching behavior, network stability, and provider performance** across various mobility states — *home, campus, and transit* — in and around Binghamton, NY.
@@ -23,7 +23,7 @@ Data preprocessing and classification were performed in **Microsoft Excel**, and
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 | Category | Tools / Technologies |
 |-----------|----------------------|
@@ -36,21 +36,21 @@ Data preprocessing and classification were performed in **Microsoft Excel**, and
 
 ---
 
-## 🧪 Methodology
+## Methodology
 
-### 🔹 Application Enhancement
+### Application Enhancement
 - Integrated **Speedometer functionality** within the Network Survey App.  
 - Modified **`build.gradle`** and **`fragment_network_details.xml`** for real-time speed and signal visualization.
 
-### 🔹 Data Collection
+### Data Collection
 - Collected live cellular-network data during:
-  - 🏠 **Home** (stationary)  
-  - 🎓 **University** (indoor/outdoor campus)  
-  - 🚗 **Transit** (walking, bus rides)
+  - **Home** (stationary)  
+  - **University** (indoor/outdoor campus)  
+  - **Transit** (walking, bus rides)
 - Captured attributes:  
   `deviceTime`, `latitude`, `longitude`, `eci`, `earfcn`, `provider`, `speed`, `networkRegistrationInfo`, `rsrp`, `rsrq`.
 
-### 🔹 Data Cleaning & Classification
+### Data Cleaning & Classification
 - Imported CSV files into Excel for preprocessing.  
 - Tagged records by **location context** (Home, University, Transit).  
 - Detected **tower handovers** via `eci` changes.  
@@ -58,7 +58,7 @@ Data preprocessing and classification were performed in **Microsoft Excel**, and
 
 ---
 
-## 📈 Key Results
+## Key Results
 
 | Metric | Observation | Insight |
 |--------|--------------|----------|
@@ -73,19 +73,19 @@ Data preprocessing and classification were performed in **Microsoft Excel**, and
 
 ---
 
-## 🖼️ Visualization Highlights
+## Visualization Highlights
 
 Interactive **Power BI** dashboards visualize:
-- **📊 Signal-Strength Heatmaps** by location  
-- **🌐 Network Stability** (5 G vs LTE vs GSM)  
-- **🚀 Mobility Impact** comparison (stationary vs transit)  
-- **📡 Provider Performance** analysis  
+- ** Signal-Strength Heatmaps** by location  
+- ** Network Stability** (5 G vs LTE vs GSM)  
+- ** Mobility Impact** comparison (stationary vs transit)  
+- ** Provider Performance** analysis  
 
 *(Exported dashboards and images are available in the `/visuals` folder.)*
 
 ---
 
-## 🧠 Key Findings
+## Key Findings
 
 - **LTE dominates** network connectivity; **5 G** remains limited.  
 - **Signal stability** highest at home, moderate on campus, lowest in transit.  
@@ -95,17 +95,17 @@ Interactive **Power BI** dashboards visualize:
 
 ---
 
-## 🧩 Repository Structure
-
-📁 Cellular-Network-Analysis
+## Repository Structure
+```
+Cellular-Network-Analysis
 │
-├── 📄 README.md # Project documentation (this file)
-├── 📂 data/ # Raw CSV data from Network Survey App
-├── 📂 visuals/ # Power BI dashboards / exports
-├── 📂 app/ # Android app modified files
-├── 📄 analysis.xlsx # Excel preprocessing & calculations
-└── 📄 P3_CELLULAR_DATA_ANALYSIS_SUMIT.pdf # Full project report
-
+├──  README.md # Project documentation (this file)
+├──  data/ # Raw CSV data from Network Survey App
+├──  visuals/ # Power BI dashboards / exports
+├──  app/ # Android app modified files
+├──  analysis.xlsx # Excel preprocessing & calculations
+└──  P3_CELLULAR_DATA_ANALYSIS_SUMIT.pdf # Full project report
+```
 ## Visuals
 - ![Speedometer_Performance_on_Network_Survey_Application](visuals/Speedometer_Performance_on_Network_Survey_Application.png)
 
